@@ -3,9 +3,9 @@
 import { useEffect, useState } from "react"
 import { useSession } from "next-auth/react"
 import { TrackList } from "@/components/recently-played/TrackList"
-import { LoadingState } from "@/components/recently-played/LoadingState"
-import { ErrorState } from "@/components/recently-played/ErrorState"
-import { AuthState } from "@/components/recently-played/AuthState"
+import { LoadingState } from "@/components/states/LoadingState"
+import { ErrorState } from "@/components/states/ErrorState"
+import { AuthState } from "@/components/states/AuthState"
 import { getRecentlyPlayed, Track } from "@/app/lib/spotify"
 
 export default function RecentlyPlayed() {

@@ -7,10 +7,16 @@ export default function Home() {
       <ConnectAccountButton />
       <div className="flex flex-row gap-4">
         <Link
-          href="/recently-played/client"
+          href="/recently-played"
           className="mt-4 rounded-2xl p-4 bg-green-800 text-white font-medium"
         >
           Recently Played
+        </Link>
+        <Link
+          href="/playlists"
+          className="mt-4 rounded-2xl p-4 bg-green-800 text-white font-medium"
+        >
+          Playlists
         </Link>
       </div>
     </div>
